@@ -10,7 +10,7 @@ client = Anthropic()
 # Variables de entorno
 WHATSAPP_TOKEN = os.environ.get("WHATSAPP_TOKEN")
 PHONE_NUMBER_ID = os.environ.get("PHONE_NUMBER_ID")
-VERIFY_TOKEN = os.environ.get("VERIFY_TOKEN")
+VERIFY_TOKEN = os.environ.get("VERIFY_TOKEN", "siib2024")
 
 # Historial de conversaciones por usuario
 conversations = {}
